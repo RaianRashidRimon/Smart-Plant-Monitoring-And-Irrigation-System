@@ -1,1 +1,1 @@
-# 🌱 Smart Plant Monitoring Irrigation System 
+# 🌱 Smart Plant Monitoring & Irrigation System 
