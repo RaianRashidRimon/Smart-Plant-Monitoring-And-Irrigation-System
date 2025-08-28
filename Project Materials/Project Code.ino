@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL6k4QgXxy0"
-#define BLYNK_TEMPLATE_NAME "SMART PLANT MONITORING AND IRRIGATION SYSTEM"
-#define BLYNK_AUTH_TOKEN "wnGdZSw1Z0gXpkXuspWuz0IshqdI2pDt"
+#define BLYNK_TEMPLATE_ID "PASTE YOUR BLIYNK TEMPLATE ID HERE"
+#define BLYNK_TEMPLATE_NAME "PASTE YOUR TEMPLATE NAME HERE"
+#define BLYNK_AUTH_TOKEN "PASTE YOUR AUTHENTICATION TOKEN HERE"
 
 #include <LiquidCrystal_I2C.h>
 #define BLYNK_PRINT Serial
@@ -9,9 +9,9 @@
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-char auth[] = "wnGdZSw1Z0gXpkXuspWuz0IshqdI2pDt";
-char ssid[] = "Galaxy S24";
-char pass[] = "bewc3921";
+char auth[] = " Paste your authenticatiion token here";
+char ssid[] = "Name of the network your NODE MCU is connected to";
+char pass[] = "Password to connect to that network";
 BlynkTimer timer;
 bool Relay = 0;
 #define sensor A0
