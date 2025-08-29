@@ -14,3 +14,9 @@ This repository contains:
 ✅ Circuit diagram for assembling the hardware components
 
 ✅ All images related to the project
+
+## ⚙️ Features
+
+- **Automated Irrigation** – Controls water flow based on soil moisture levels though web dashboard or mobile application.
+- **Real-time Monitoring** – Displays soil moisture and system status via LCD, web and mobile UI.
+- **Manual Pump Control** - Lets control water pump through web or mobile UI.
