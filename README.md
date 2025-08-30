@@ -31,3 +31,35 @@ This repository contains:
 + Battery Holder
 + Connecting Wires
 + LCD Display With I2C Module
+
+## 🛠️ Circuit Diagram
+
+Follow the diagram to assemble the components correctly.
+
+<div align="center">
+  <img src="Project Materials/Circuit Diagram.jpg" alt="Circuit Diagram" width="800"/>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
