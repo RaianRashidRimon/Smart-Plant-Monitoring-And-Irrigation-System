@@ -20,3 +20,14 @@ This repository contains:
 - **Automated Irrigation** – Controls water flow based on soil moisture levels though web dashboard or mobile application.
 - **Real-time Monitoring** – Displays soil moisture and system status via LCD, web and mobile UI.
 - **Manual Pump Control** - Lets control water pump through web or mobile UI.
+
+## 🔧 Components Required
++ NODEMCU - ESP8266
++ Soil Moisture Sensor
++ 1Channel 5V Relay Module
++ 3V to 12V Mini DC Submersible Pump
++ Li-ion Rechargeable Battery
++ Breadboard
++ Battery Holder
++ Connecting Wires
++ LCD Display With I2C Module
