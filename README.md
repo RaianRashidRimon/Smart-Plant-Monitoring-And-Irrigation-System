@@ -46,7 +46,18 @@ Follow the diagram to assemble the components correctly.
 </div>
 
 ## 🚀 Installation
-
+1. Test all your components one by one to make sure they are working before you hook them up together.
+2. Place the ESP8266 on your breadboard and wire it to the LCD-I2C like this: VCC to +Ve, GND to -Ve, SDA to D2, and SCL to D1.
+3. Now connect the Soil Moisture Sensor to the ESP8266. Add VCC to +Ve and A0 to A0.
+4. Next, connect the 1-Channel Relay Module to the ESP8266. Use VCC to 3.3V, GND to GND, and IN to D3.
+5. Time to set up the power supply. Connect the black wires of the battery holder and the pump together. Then connect the red wires like this: Pump to NO and Battery to COM of the Relay
+6. Open up Blynk and create a new template. Give it the same name as your project so it’s easy to track.
+7. Inside the template, make two datastreams: one called Moisture Value on virtual pin V0 and another called Water Pump on virtual pin V1.
+8. Build your web dashboard by adding a gauge for the Moisture Value and a switch for the Water Pump. Save it, then create a new device using this template.
+9. Head over to your Arduino code and paste in the Authentication Token from Blynk. Don’t forget to add your Wi-Fi name and password.
+10. Do the same setup on the Blynk mobile app: create the dashboard and link the same datastreams.
+11. Now it’s time to test! Stick the Soil Moisture Sensor into some dry soil.
+12. Watch the gauge. It should show a low moisture level. Then hit the ‘Switch’ on the app or dashboard and you will see the relay power up the pump. If the pump is sitting in water, it will start watering your dry soil automatically.
 
 
 
