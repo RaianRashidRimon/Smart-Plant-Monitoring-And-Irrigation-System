@@ -21,7 +21,8 @@ This repository contains:
 - **Real-time Monitoring** – Displays soil moisture and system status via LCD, web and mobile UI.
 - **Manual Pump Control** - Lets control water pump through web or mobile UI.
 
-## 🔧 Components Required
+## 🔧 Components Required 
+### Hardwares
 + NODEMCU - ESP8266
 + Soil Moisture Sensor
 + 1Channel 5V Relay Module
@@ -32,6 +33,10 @@ This repository contains:
 + Connecting Wires
 + LCD Display With I2C Module
 
+### Softwares
++ Arduino IDE
++ Blynk Mobile Application
+
 ## 🛠️ Circuit Diagram
 
 Follow the diagram to assemble the components correctly.
@@ -39,6 +44,8 @@ Follow the diagram to assemble the components correctly.
 <div align="center">
   <img src="Project Materials/Circuit Diagram.jpg" alt="Circuit Diagram" width="800"/>
 </div>
+
+## 🚀 Installation
 
 
 
