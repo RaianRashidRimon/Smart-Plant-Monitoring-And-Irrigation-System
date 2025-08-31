@@ -11,7 +11,7 @@ This repository contains:
 
 ✅ List of required hardware components
 
-✅ Circuit diagram for assembling the hardware components
+✅ Circuit diagram for assembling the hardware components and softwares
 
 ✅ All images related to the project
 
