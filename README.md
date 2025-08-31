@@ -45,7 +45,7 @@ Follow the diagram to assemble the components correctly.
   <img src="Project Materials/Circuit Diagram.jpg" alt="Circuit Diagram" width="800"/>
 </div>
 
-## 🚀 Installation
+## 🚀 Installation and Usage
 1. Test all your components one by one to make sure they are working before you hook them up together.
 2. Place the ESP8266 on your breadboard and wire it to the LCD-I2C like this: VCC to +Ve, GND to -Ve, SDA to D2, and SCL to D1.
 3. Now connect the Soil Moisture Sensor to the ESP8266. Add VCC to +Ve and A0 to A0.
@@ -59,7 +59,8 @@ Follow the diagram to assemble the components correctly.
 11. Now it’s time to test! Stick the Soil Moisture Sensor into some dry soil.
 12. Watch the gauge. It should show a low moisture level. Then hit the ‘Switch’ on the app or dashboard and you will see the relay power up the pump. If the pump is sitting in water, it will start watering your dry soil automatically.
 
-
+## 🤝 Contributing
+Contributions are welcome! If you have improvements or additional features, feel free to fork this repository and submit a pull request.
 
 
 
