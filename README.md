@@ -61,9 +61,10 @@ Follow the diagram to assemble the components correctly.
 12. Watch the gauge. It should show a low moisture level. Then hit the ‘Switch’ on the app or dashboard and you will see the relay power up the pump. If the pump is sitting in water, it will start watering your dry soil automatically.
 
 ## 🤝 Contributing
+
 Contributions are welcome! If you have improvements or additional features, clone the repository:
 
-   git clone `https://github.com/RaianRashidRimon/Irrigation-Monitoring-Controller-System`
+   git clone `https://github.com/RaianRashidRimon/Smart-Plant-Monitoring-And-Irrigation-System.git`
 
 Or feel free to fork this repository and submit a pull request.
 
