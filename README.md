@@ -1,6 +1,6 @@
 # 🌱 Smart Plant Monitoring & Irrigation System 
 
-## 📌 Overview
+## Overview
 The _**Smart Plant Monitoring & Irrigation System**_ is an IoT-enabled automation project designed to intelligently manage irrigation while providing real-time monitoring of plant conditions. By leveraging internet connectivity, this system allows users to remotely track soil moisture levels and ensure plants receive the right amount of water, reducing both overwatering and underwatering.
 
 Built with a NodeMCU (ESP8266) microcontroller, soil moisture sensors and a relay-controlled water pump, the system automates irrigation by activating the pump only when moisture levels fall below a predefined threshold with also manual control. Additionally, the IoT integration enables data logging and remote access, making plant care more efficient, sustainable and user-friendly.
@@ -15,13 +15,13 @@ This repository contains:
 
 ✅ All images related to the project
 
-## ⚙️ Features
+## Features
 
 - **Automated Irrigation** – Controls water flow based on soil moisture levels though web dashboard or mobile application.
 - **Real-time Monitoring** – Displays soil moisture and system status via LCD, web and mobile UI.
 - **Manual Pump Control** - Lets control water pump through web or mobile UI.
 
-## 🔧 Components Required 
+## Components Required 
 ### Hardwares
 + NODEMCU - ESP8266
 + Soil Moisture Sensor
@@ -37,7 +37,7 @@ This repository contains:
 + Arduino IDE
 + Blynk Mobile Application
 
-## 🛠️ Circuit Diagram
+## Circuit Diagram
 
 Follow the diagram to assemble the components correctly.
 
@@ -45,7 +45,7 @@ Follow the diagram to assemble the components correctly.
   <img src="Project Materials/Circuit Diagram.jpg" alt="Circuit Diagram" width="800"/>
 </div>
 
-## 🚀 Installation and Usage
+## Installation and Usage
 
 1. Test all your components one by one to make sure they are working before you hook them up together.
 2. Place the ESP8266 on your breadboard and wire it to the LCD-I2C like this: VCC to +Ve, GND to -Ve, SDA to D2, and SCL to D1.
@@ -60,7 +60,7 @@ Follow the diagram to assemble the components correctly.
 11. Now it’s time to test! Stick the Soil Moisture Sensor into some dry soil.
 12. Watch the gauge. It should show a low moisture level. Then hit the ‘Switch’ on the app or dashboard and you will see the relay power up the pump. If the pump is sitting in water, it will start watering your dry soil automatically.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you have improvements or additional features, clone the repository:
 
